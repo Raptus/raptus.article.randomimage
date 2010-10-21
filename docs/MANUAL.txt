@@ -10,19 +10,21 @@ Code overview
 
 Components
 ----------
-plone.abovecontentbody:
 
+plone.abovecontentbody
+``````````````````````
 - raptus.article.randomimage.full
 - raptus.article.randomimage.right
 - raptus.article.randomimage.left
 
-plone.portaltop:
-
+plone.portaltop
+```````````````
 - raptus.article.randomimage.teaser
   
 Interfaces
 ----------
-file: interfaces.py
 
+file: interfaces.py
+```````````````````
 - IRandomImage (Provider for a random image)
     - getImage - method (Returns a random image (catalog brain))

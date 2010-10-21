@@ -5,14 +5,15 @@ Provides components which display a random image contained in the article.
 
 The following features for raptus.article are provided by this package:
 
-    * Components:
-        * Image fader (Image fader over the whole width which continually fades in and out the images contained in the article)
-        * Image fader left (Image fader on the left side which continually fades in and out the images contained in the article)
-        * Image fader right (Image fader on the right side which continually fades in and out the images contained in the article)
-        * Image fader teaser (Image fader over the whole width which continually fades in and out the images contained in the article and is displayed above the columns)
+Components
+----------
+    * Random image (Random image displayed over the whole width)
+    * Random image left (Random image displayed on the left side)
+    * Random image right (Random image displayed on the right side)
+    * Random image teaser (Random image displayed over the whole width and displayed above the columns)
 
-Dependencies:
-
+Dependencies
+------------
     * raptus.article.images
 
 Installation
@@ -59,7 +60,5 @@ in the article in which this component is active.
 Copyright and credits
 =====================
 
-raptus.article is copyrighted by raptus_, and licensed under the GPL. 
+raptus.article is copyrighted by `Raptus AG <http://raptus.com>`_ and licensed under the GPL. 
 See LICENSE.txt for details.
-
-.. _raptus: http://raptus.com/ 
